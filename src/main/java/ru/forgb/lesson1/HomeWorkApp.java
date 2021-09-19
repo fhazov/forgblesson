@@ -1,6 +1,7 @@
 package ru.forgb.lesson1;
 
 public class HomeWorkApp {
+
     public static void main(String[] args) {
         printThreeWords();
         checkSumSign();
