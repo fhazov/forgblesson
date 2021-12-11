@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f677bec9-e978-4c94-91b7-7df8eaf6b41f" name="Default Changelist" comment="" />
+    <list default="true" id="59018b51-8bcb-4d58-a1a3-8365a49af96b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,13 +10,6 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -28,10 +21,11 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1yGYndSnpy1K1DmbjPd85wC9Ns3" />
+  <component name="ProjectId" id="223ZRJ54hDZrhLVOyPgkRla2P1l" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,13 +39,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="HomeWorkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.forgb.lesson1.HomeWorkApp" />
-      <module name="java_lesson_1" />
+  <component name="RunManager" selected="JUnit.AppTest">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gb.App" />
+      <module name="homeWork3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.forgb.lesson1.*" />
+          <option name="PATTERN" value="gb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,9 +53,89 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeWork3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gb" />
+      <option name="MAIN_CLASS_NAME" value="gb.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeWork3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gb" />
+      <option name="MAIN_CLASS_NAME" value="gb.AppTest" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeWork3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gb" />
+      <option name="MAIN_CLASS_NAME" value="gb.AppTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gb []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Maven.gb []" />
+      <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+      <item itemvalue="JUnit.AppTest.login" />
+      <item itemvalue="JUnit.AppTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeWorkApp" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.login" />
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -70,14 +144,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f677bec9-e978-4c94-91b7-7df8eaf6b41f" name="Default Changelist" comment="" />
-      <created>1631879559629</created>
+      <changelist id="59018b51-8bcb-4d58-a1a3-8365a49af96b" name="Default Changelist" comment="" />
+      <created>1639068221921</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1631879559629</updated>
-      <workItem from="1631879562392" duration="1573000" />
-      <workItem from="1631881654509" duration="627000" />
-      <workItem from="1632063174323" duration="636000" />
+      <updated>1639068221921</updated>
+      <workItem from="1639068225581" duration="1547000" />
+      <workItem from="1639069792151" duration="1790000" />
+      <workItem from="1639071611201" duration="299000" />
+      <workItem from="1639204686057" duration="537000" />
+      <workItem from="1639224164995" duration="1791000" />
+      <workItem from="1639226150645" duration="961000" />
     </task>
     <servers />
   </component>
